@@ -13,4 +13,8 @@ Example:
 4. It will be embedded automatically and the results will be graded in your course.
 
 Please note, that the activity name is case sensitive!
-# h5p-filter-moodle36
+
+
+# Changes in h5p-filter-moodle36
+
+(2019/06/21) The template/embed.mustache has been modified in order to meet the style requirements at IEDIB.
