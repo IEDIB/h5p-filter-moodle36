@@ -54,8 +54,7 @@ class filter_h5p extends moodle_text_filter {
 
             //$link = $OUTPUT->render_from_template('filter_h5p/link', $params);
             $embed = $OUTPUT->render_from_template('filter_h5p/embed', $params);
-	    //$embed = "<div class='iedib-video-container' style='max-width:600px'>".$embed."</div>";
-            $text = str_replace('{h5p:' . $cm->name . '}', $embed, $text);
+            $text = str_replace('{h5p: ' . $cm->name . ' }', $embed, $text);
         }
 
         return $text;
