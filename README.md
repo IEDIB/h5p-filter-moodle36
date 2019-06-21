@@ -17,4 +17,5 @@ Please note, that the activity name is case sensitive!
 
 # Changes in h5p-filter-moodle36
 
-(2019/06/21) The template/embed.mustache has been modified in order to meet the style requirements at IEDIB.
+(2019/06/21) - The template/embed.mustache has been modified in order to meet the style requirements at IEDIB.
+             - Added trailing spaces in the filter string {h5p:_name of activity_} where _ stands for a white space.
